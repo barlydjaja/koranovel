@@ -3,18 +3,30 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
     "build": "next build",
-    "start": "next start",
+    "build:dev": "cross-env NODE_ENV=development next build",
+    "build:master": "cross-env NODE_ENV=production next build",
+    "start": "pm2 start pm2.json",
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/core": "^11.0.0",
+    "@emotion/react": "^11.4.0",
+    "bootstrap": "4.5.3",
+    "cross-env": "^7.0.3",
+    "express": "^4.17.1",
     "next": "11.0.1",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-typed": "^1.2.0"
   },
   "devDependencies": {
+    "consola": "^2.15.3",
     "eslint": "7.30.0",
-    "eslint-config-next": "11.0.1"
+    "eslint-config-next": "11.0.1",
+    "less": "^4.1.1",
+    "less-loader": "^10.0.1",
+    "nodemon": "^2.0.12"
   }
 }
