@@ -1,0 +1,28 @@
+.body {
+  text-shadow: none;
+  box-shadow: none;
+}
+
+.aboutBackground {
+  background-image: url("../assets/images/aboutimg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.aboutCenterText {
+  position: relative;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -40%) rotate(-20deg);
+  text-shadow: 2px 2px black;
+}
+
+.about-text-p {
+  font-family: fantasy;
+}
+
+.about-company-name {
+  font-size: 0.8em;
+}

@@ -1,0 +1,53 @@
+/* a {
+  color: white;
+}
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+p {
+  user-select: none;
+} */
+.novelContainer {
+  margin-top: 2em;
+}
+.novelCenterText {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.novelLoadingCenter {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.novelImage {
+  height: "210px";
+  width: "135px";
+}
+
+.blockquote-footer::before {
+  content: none;
+}
+.novelMore {
+  display: none;
+}
+.novelLess {
+  display: inline;
+}
+.novelShowDots {
+  display: inline;
+}
+.novelNotShowDots {
+  display: none;
+}
+.novelMoreLessButton {
+  color: darkslateblue;
+  padding: 0.375rem 0;
+}
+.novelMoreLessButton:hover {
+  color: darkmagenta;
+}
