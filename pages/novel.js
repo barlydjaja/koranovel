@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "../styles/Novel.module.css";
 import Header from "../components/Header";
 import { Container, Row } from "reactstrap";
+import Head from "next/head";
 
 import punarbhawaCover from "../assets/images/Punarbhawa.png";
 import iNeedArtInLoveCover from "../assets/images/iNeedArtInLove.png";
@@ -34,6 +35,12 @@ const Novel = () => {
         className="d-flex w-100 h-100 p-3 mx-auto flex-column"
         style={{ maxWidth: "42em" }}
       >
+        <Head>
+          <title>Koranovel/Novel</title>
+          <meta name="Home" content="Koranovel Official Website" />
+          <meta name="keywords" content="Novel, Fantasy, True Story," />
+          <meta name="author" content="Kartika Gema Mardika" />
+        </Head>
         <Header />
         <Container fluid="sm" className={styles.novelContainer}>
           <h3 className="mb-5">

@@ -15,7 +15,8 @@ export default function Home() {
       <Head>
         <title>Koranovel</title>
         <meta name="Home" content="Koranovel Official Website" />
-        <link rel="icon" href="/koranovelicon.png" />
+        <meta name="keywords" content="Novel, Fantasy, True Story," />
+        <meta name="author" content="Kartika Gema Mardika" />
       </Head>
       <div
         className={

@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../components/Header";
 import styles from "../styles/About.module.css";
 import { Container, Row, Col } from "reactstrap";
+import Head from "next/head";
 
 const About = () => {
   return (
@@ -9,6 +10,12 @@ const About = () => {
       <div
         className={`d-flex text-center text-white ` + styles.aboutBackground}
       >
+        <Head>
+          <title>Koranovel/About</title>
+          <meta name="Home" content="Koranovel Official Website" />
+          <meta name="keywords" content="Novel, Fantasy, True Story," />
+          <meta name="author" content="Kartika Gema Mardika" />
+        </Head>
         <div
           className="d-flex w-100 p-3 mx-auto flex-column"
           style={{ maxWidth: "42em" }}
