@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Image from "next/image";
 import styles from "../styles/Novel.module.css";
 import Header from "../components/Header";
 import { Container, Row } from "reactstrap";
@@ -54,7 +53,7 @@ const Novel = () => {
             >
               <div className="row g-0">
                 <div className="col-md-4">
-                  <Image
+                  <image
                     src={punarbhawaCover}
                     alt="..."
                     width={135}
@@ -113,7 +112,7 @@ const Novel = () => {
             >
               <div className="row g-0">
                 <div className="col-md-4">
-                  <Image
+                  <image
                     src={iNeedArtInLoveCover}
                     alt="..."
                     width={135}
@@ -147,7 +146,7 @@ const Novel = () => {
             >
               <div className="row g-0">
                 <div className="col-md-4">
-                  <Image
+                  <image
                     src={duaCoklatCover}
                     alt="..."
                     width={135}
@@ -184,7 +183,7 @@ const Novel = () => {
             >
               <div className="row g-0">
                 <div className="col-md-4">
-                  <Image
+                  <image
                     src={futuristic616Cover}
                     alt="..."
                     width={135}
@@ -219,7 +218,7 @@ const Novel = () => {
             >
               <div className="row g-0">
                 <div className="col-md-4">
-                  <Image
+                  <image
                     src={robinDanDaraCover}
                     alt="..."
                     width={135}
