@@ -53,7 +53,7 @@ const Novel = () => {
             >
               <div className="row g-0">
                 <div className="col-md-4">
-                  <image
+                  <img
                     src={punarbhawaCover}
                     alt="..."
                     width={135}
@@ -112,7 +112,7 @@ const Novel = () => {
             >
               <div className="row g-0">
                 <div className="col-md-4">
-                  <image
+                  <img
                     src={iNeedArtInLoveCover}
                     alt="..."
                     width={135}
@@ -146,7 +146,7 @@ const Novel = () => {
             >
               <div className="row g-0">
                 <div className="col-md-4">
-                  <image
+                  <img
                     src={duaCoklatCover}
                     alt="..."
                     width={135}
@@ -183,7 +183,7 @@ const Novel = () => {
             >
               <div className="row g-0">
                 <div className="col-md-4">
-                  <image
+                  <img
                     src={futuristic616Cover}
                     alt="..."
                     width={135}
@@ -218,7 +218,7 @@ const Novel = () => {
             >
               <div className="row g-0">
                 <div className="col-md-4">
-                  <image
+                  <img
                     src={robinDanDaraCover}
                     alt="..."
                     width={135}
