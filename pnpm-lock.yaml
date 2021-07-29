@@ -12,6 +12,7 @@ specifiers:
   less: ^4.1.1
   less-loader: ^10.0.1
   next: 11.0.1
+  next-ga: ^2.3.4
   nodemon: ^2.0.12
   pm2: ^5.1.0
   react: 17.0.2
@@ -27,6 +28,7 @@ dependencies:
   cross-env: 7.0.3
   express: 4.17.1
   next: 11.0.1_react-dom@17.0.2+react@17.0.2
+  next-ga: 2.3.4_next@11.0.1+react@17.0.2
   pm2: 5.1.0
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
@@ -2958,6 +2960,21 @@ packages:
     engines: {node: '>= 0.4.0'}
     dev: false
 
+  /next-ga/2.3.4_next@11.0.1+react@17.0.2:
+    resolution: {integrity: sha512-mIol83ehPCz9Z+QtK6ig1w9Db4ShoyhjS6NgDnTIVJuBQ1iobiZap2xXn6KtYWBc+AH5DdTCBtZRF8PP5yJAVA==}
+    peerDependencies:
+      next: ^6.0.0 || ^7.0.0
+      react: ^16.0.0
+    dependencies:
+      debug: 4.3.2
+      next: 11.0.1_react-dom@17.0.2+react@17.0.2
+      react: 17.0.2
+      react-ga: 2.7.0_react@17.0.2
+    transitivePeerDependencies:
+      - prop-types
+      - supports-color
+    dev: false
+
   /next/11.0.1_react-dom@17.0.2+react@17.0.2:
     resolution: {integrity: sha512-yR7be7asNbvpVNpi6xxEg28wZ7Gqmj1nOt0sABH9qORmF3+pms2KZ7Cng33oK5nqPIzEEFJD0pp2PCe3/ueMIg==}
     engines: {node: '>=12.0.0'}
@@ -3773,6 +3790,15 @@ packages:
       object-assign: 4.1.1
       react: 17.0.2
       scheduler: 0.20.2
+    dev: false
+
+  /react-ga/2.7.0_react@17.0.2:
+    resolution: {integrity: sha512-AjC7UOZMvygrWTc2hKxTDvlMXEtbmA0IgJjmkhgmQQ3RkXrWR11xEagLGFGaNyaPnmg24oaIiaNPnEoftUhfXA==}
+    peerDependencies:
+      prop-types: ^15.6.0
+      react: ^15.6.2 || ^16.0
+    dependencies:
+      react: 17.0.2
     dev: false
 
   /react-is/16.13.1:
