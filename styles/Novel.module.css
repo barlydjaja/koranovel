@@ -8,6 +8,10 @@ a:hover {
 p {
   user-select: none;
 } */
+
+.no-select{
+  user-select: none;
+}
 .novelContainer {
   margin-top: 2em;
 }

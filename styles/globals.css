@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+p{
+  user-select: none;
+}
+
 [class*="flex"] {
   display: flex;
 }
