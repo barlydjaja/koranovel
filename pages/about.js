@@ -13,6 +13,7 @@ const About = () => {
         <Head>
           <title>Koranovel/About</title>
           <meta name="Home" content="Koranovel Official Website" />
+          <meta name="description" content="This is a website, owned by KGM, this particular page is where she wrote her experience and dreams"/>
           <meta name="keywords" content="Novel, Fantasy, True Story," />
           <meta name="author" content="Kartika Gema Mardika" />
         </Head>

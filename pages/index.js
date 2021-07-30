@@ -15,6 +15,7 @@ export default function Home() {
       <Head>
         <title>Koranovel</title>
         <meta name="Home" content="Koranovel Official Website" />
+        <meta name="description" content="This is a website, owned by KGM, will be filled with her novel collection that you can read for free! Come and Check us out!"/>
         <meta name="keywords" content="Novel, Fantasy, True Story," />
         <meta name="author" content="Kartika Gema Mardika" />
       </Head>
