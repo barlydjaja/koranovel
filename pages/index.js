@@ -74,7 +74,7 @@ export default function Home() {
               />
             </h4>
           </div>
-          <Link href="http://blog.koranovel.com">
+          <Link href="https://blog.koranovel.com">
             <a className={`btn btn-lg ${styles.btnPrimary} text-white`}>
               Kara Blog
             </a>
