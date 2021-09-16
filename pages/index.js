@@ -1,16 +1,23 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
+import Image from "next/image";
 import React from "react";
 import Typed from "react-typed";
 import Link from "next/link";
-import ActiveLink from "../components/ActiveLink";
 import Header from "../components/Header";
+import CloudImageLoader from "../components/CloudImageLoader";
+
+import IgLogo from "../assets/images/ic_Instagram.png";
 
 export default function Home() {
   return (
     <div
       className={"d-flex vh-100 text-center text-white"}
-      style={{ backgroundColor: "#FFA1A9" }}
+      style={{
+        backgroundColor: "#FFA1A9",
+        minHeight: "100%",
+        overflow: "scroll",
+      }}
     >
       <Head>
         <title>Koranovel</title>
@@ -79,10 +86,33 @@ export default function Home() {
               Kara Blog
             </a>
           </Link>
+          <div style={{ marginTop: "10px" }}>
+            <Link href="https://www.instagram.com/kartgm_/">
+              <a
+                className="sosmed"
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                }}
+              >
+                <Image
+                  loader={CloudImageLoader}
+                  src={IgLogo}
+                  alt="..."
+                  width="20"
+                  height="20"
+                />
+                <span style={{ color: "white", marginLeft: "10px" }}>
+                  @kartgm_
+                </span>
+              </a>
+            </Link>
+          </div>
         </main>
 
         <footer className={"mt-auto text-white-50"}>
-          <p>Support Website by Barly &copy; 2021 </p>
+          <p>Support System by Barly &copy; 2021 </p>
         </footer>
       </div>
     </div>
