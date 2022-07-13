@@ -41,34 +41,34 @@ const About = () => {
           that&apos;s what every artist goes through in their process of
           creating a masterpiece.
         </p>
-        <h1 className="mt-5 display-5 mb-3">Experiences</h1>
-        <p className="text-muted">
-          The working experience that I have had since highschool
-        </p>
-        <Row>
-          <Col className="text-right">2005 - Present</Col>
-          <Col className="text-left">Writer</Col>
-        </Row>
-        <Row>
-          <Col className="text-right">2013 - Present</Col>
-          <Col className="text-left">Author</Col>
-        </Row>
-        <Row>
-          <Col className="text-right">2013 - 2015</Col>
-          <Col className="text-left">Financial Consultant (Stock Market)</Col>
-        </Row>
-        <Row>
-          <Col className="text-right">2015 - 2016</Col>
-          <Col className="text-left">Asisten Presiden Direktur</Col>
-        </Row>
-        <Row>
-          <Col className="text-right">2015 - 2017</Col>
-          <Col className="text-left">Pengelola Wisata Kepulauan Seribu</Col>
-        </Row>
-        <Row>
-          <Col className="text-right">2018 - 2019</Col>
-          <Col className="text-left">Freelance Marketing Property</Col>
-        </Row>
+        {/*<h1 className="mt-5 display-5 mb-3">Experiences</h1>*/}
+        {/*<p className="text-muted">*/}
+        {/*  The working experience that I have had since highschool*/}
+        {/*</p>*/}
+        {/*<Row>*/}
+        {/*  <Col className="text-right">2005 - Present</Col>*/}
+        {/*  <Col className="text-left">Writer</Col>*/}
+        {/*</Row>*/}
+        {/*<Row>*/}
+        {/*  <Col className="text-right">2013 - Present</Col>*/}
+        {/*  <Col className="text-left">Author</Col>*/}
+        {/*</Row>*/}
+        {/*<Row>*/}
+        {/*  <Col className="text-right">2013 - 2015</Col>*/}
+        {/*  <Col className="text-left">Financial Consultant (Stock Market)</Col>*/}
+        {/*</Row>*/}
+        {/*<Row>*/}
+        {/*  <Col className="text-right">2015 - 2016</Col>*/}
+        {/*  <Col className="text-left">Asisten Presiden Direktur</Col>*/}
+        {/*</Row>*/}
+        {/*<Row>*/}
+        {/*  <Col className="text-right">2015 - 2017</Col>*/}
+        {/*  <Col className="text-left">Pengelola Wisata Kepulauan Seribu</Col>*/}
+        {/*</Row>*/}
+        {/*<Row>*/}
+        {/*  <Col className="text-right">2018 - 2019</Col>*/}
+        {/*  <Col className="text-left">Freelance Marketing Property</Col>*/}
+        {/*</Row>*/}
       </Container>
     </div>
   );

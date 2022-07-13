@@ -110,10 +110,6 @@ export default function Home() {
             </Link>
           </div>
         </main>
-
-        <footer className={"mt-auto text-white-50"}>
-          <p>Support System by Barly &copy; 2021 </p>
-        </footer>
       </div>
     </div>
   );
