@@ -31,8 +31,7 @@ const About = () => {
           Hi, My name is Kartika G.M. I&apos;m the owner of koranovel.com. This
           website is used as a platform for me to write more stories for people
           to enjoy. I have been in love with the world of writing and reading
-          since i was a kid. My dream is to have my own book published. This
-          website is the first step for me to achieve my dreams.
+          since i was a kid.
         </p>
         <br />
         <p className="lead about-text-p mb-3">
