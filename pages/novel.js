@@ -219,41 +219,41 @@ const Novel = () => {
                             </div>
                         </div>
                     </Row>
-                    <Row>
-                        <div
-                            className="card mb-3 border-light"
-                            style={{maxWidth: "700px", backgroundColor: "transparent"}}
-                        >
-                            <div className="row g-0">
-                                <div className="col-md-4">
-                                    <Image
-                                        loader={CloudImageLoader}
-                                        src={robinDanDaraCover}
-                                        alt="..."
-                                        width={135}
-                                        height={210}
-                                    />
-                                </div>
-                                <div className="col-md-8">
-                                    <div className="card-body">
-                                        <h5 className="card-title">Robin dan Dara</h5>
-                                        <p className="card-text">
-                                            Story revolves around a girl and her pilot boyfriend. Are
-                                            they going to end up together? Find out more!
-                                        </p>
-                                        <p className="card-text mb-0">
-                                            <small className="text-muted">
-                                                Genre: Novel, Fiction, Romance, Erotic Romance, Metropop
-                                            </small>
-                                        </p>
-                                        <blockquote className="blockquote mb-0">
-                                            <footer className="blockquote-footer">2018 - 2019</footer>
-                                        </blockquote>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </Row>
+                    {/*<Row>*/}
+                    {/*    <div*/}
+                    {/*        className="card mb-3 border-light"*/}
+                    {/*        style={{maxWidth: "700px", backgroundColor: "transparent"}}*/}
+                    {/*    >*/}
+                    {/*        <div className="row g-0">*/}
+                    {/*            <div className="col-md-4">*/}
+                    {/*                <Image*/}
+                    {/*                    loader={CloudImageLoader}*/}
+                    {/*                    src={robinDanDaraCover}*/}
+                    {/*                    alt="..."*/}
+                    {/*                    width={135}*/}
+                    {/*                    height={210}*/}
+                    {/*                />*/}
+                    {/*            </div>*/}
+                    {/*            <div className="col-md-8">*/}
+                    {/*                <div className="card-body">*/}
+                    {/*                    <h5 className="card-title">Robin dan Dara</h5>*/}
+                    {/*                    <p className="card-text">*/}
+                    {/*                        Story revolves around a girl and her pilot boyfriend. Are*/}
+                    {/*                        they going to end up together? Find out more!*/}
+                    {/*                    </p>*/}
+                    {/*                    <p className="card-text mb-0">*/}
+                    {/*                        <small className="text-muted">*/}
+                    {/*                            Genre: Novel, Fiction, Romance, Erotic Romance, Metropop*/}
+                    {/*                        </small>*/}
+                    {/*                    </p>*/}
+                    {/*                    <blockquote className="blockquote mb-0">*/}
+                    {/*                        <footer className="blockquote-footer">2018 - 2019</footer>*/}
+                    {/*                    </blockquote>*/}
+                    {/*                </div>*/}
+                    {/*            </div>*/}
+                    {/*        </div>*/}
+                    {/*    </div>*/}
+                    {/*</Row>*/}
                 </Container>
             </div>
         </div>
