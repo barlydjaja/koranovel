@@ -15,7 +15,7 @@ const About = () => {
           <meta name="Home" content="Koranovel Official Website" />
           <meta name="description" content="This is a website, owned by KGM, this particular page is where she wrote her experience and dreams"/>
           <meta name="keywords" content="Novel, Fantasy, True Story," />
-          <meta name="author" content="Kartika Gema Mardika" />
+          <meta name="author" content="Kartika Mardika" />
         </Head>
         <div
           className="d-flex w-100 p-3 mx-auto flex-column"
@@ -28,7 +28,7 @@ const About = () => {
       <Container fluid="sm" className="text-center">
         <h1 className="mt-5 display-5 mb-3">About Me</h1>
         <p className="lead about-text-p">
-          Hi, My name is Kartika G.M. I&apos;m the owner of koranovel.com. This
+          Hi, My name is Kartika .M. I&apos;m the owner of koranovel.com. This
           website is used as a platform for me to write more stories for people
           to enjoy. I have been in love with the world of writing and reading
           since i was a kid.

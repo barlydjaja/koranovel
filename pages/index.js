@@ -27,7 +27,7 @@ export default function Home() {
           content="This is a website, owned by KGM, will be filled with her novel collection that you can read for free! Come and Check us out!"
         />
         <meta name="keywords" content="Novel, Fantasy, True Story," />
-        <meta name="author" content="Kartika Gema Mardika" />
+        <meta name="author" content="Kartika Mardika" />
       </Head>
       <div
         className={
