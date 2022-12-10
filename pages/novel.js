@@ -74,7 +74,7 @@ const Novel = () => {
                                             <span className={showingDots}>...</span>
                                             <span className={showText}>
                         {" "}
-                                                Purbani Jaya, Nadeem Ajala, Banyu Anggoro, Wanda Cantika, dan Maya Sinora have their own
+                                                Purbani Jaya, Nadeem Ajala, Banyu Anggoro, Wanda Kraka, dan Maya Sinora have their own
                         life, different profession, family background, and place
                         to live, they don&apos;t even know one another, however
                         they have amazing uniqueness that comes into their life.
