@@ -74,7 +74,7 @@ export default function Home() {
             </h3>
             <h4 className="lead">
               <Typed
-                strings={["- Kartika G.M. -"]}
+                strings={["- Kartika .M. -"]}
                 startDelay={8500}
                 typeSpeed={100}
                 showCursor={false}
