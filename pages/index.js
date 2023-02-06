@@ -87,7 +87,7 @@ export default function Home() {
             </a>
           </Link>
           <div style={{ marginTop: "10px" }}>
-            <Link href="https://www.instagram.com/kgmard_/">
+            <Link href="https://www.instagram.com/kartmg_/">
               <a
                 className="sosmed"
                 style={{
@@ -104,7 +104,7 @@ export default function Home() {
                   height="20"
                 />
                 <span style={{ color: "white", marginLeft: "10px" }}>
-                  @kgmard_
+                  @kartmg_
                 </span>
               </a>
             </Link>
