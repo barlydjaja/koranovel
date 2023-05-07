@@ -29,6 +29,9 @@ const Header = () => {
           <ActiveLink href="/novel" activeClassName="selected">
             <a className="nav-link">Novel</a>
           </ActiveLink>
+          <ActiveLink href="/store" activeClassName="selected">
+            <a className="nav-link">Store</a>
+          </ActiveLink>
         </nav>
       </div>
     </header>
