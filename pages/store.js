@@ -26,13 +26,13 @@ const Store = () => {
                 <div className='mb-3'>
                     <Header/>
                 </div>
-                <h5 style={{textAlign: 'left'}} className='mb-3'>
+                <h6 style={{textAlign: 'left'}} className='mb-3 mt-4'>
                     Free Shipping by Koranovel
-                </h5>
+                    <div style={{fontSize: '12px'}}>
+                        Order from telegram googoodolls1
+                    </div>
+                </h6>
                 <Container fluid="sm">
-                    <h3>
-                        Chapter I
-                    </h3>
                     <div className="mb-5">
                         <span>
                             Leather Back Cover For
@@ -66,9 +66,6 @@ const Store = () => {
                         </div>
                     </div>
 
-                    <h3>
-                        Chapter II
-                    </h3>
                     <div className="mb-5">
                         <span>
                             Luxury Offical Original Liquid Silicone
@@ -83,9 +80,6 @@ const Store = () => {
                         </div>
                     </div>
 
-                    <h3>
-                        Chapter III
-                    </h3>
                     <div className="mb-5">
                         <span>
                             Wholesale gel case skin cover iPhone 7,8, X,XS,11,11 pro, 12,12pro, 13,13pro, 13pro max.
