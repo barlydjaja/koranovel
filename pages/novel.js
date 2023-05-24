@@ -171,8 +171,7 @@ const Novel = () => {
                                         </p>
                                         <p className="card-text mb-0">
                                             <small className="text-muted">
-                                                Genre: Novel, Fiction, Suspense, Thriller, Psychological
-                                                Fiction
+                                                Genre: Novel, Suspense, Thriller
                                             </small>
                                         </p>
                                         <blockquote className="blockquote mb-0">
