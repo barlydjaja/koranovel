@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
-import {Container, Row, Col} from "reactstrap";
+import {Container} from "reactstrap";
 import Head from "next/head";
 import Image from "next/image";
 import ReactPlayer from 'react-player'
@@ -29,7 +29,7 @@ const Store = () => {
                 <h6 style={{textAlign: 'left'}} className='mb-3 mt-4'>
                     Free Shipping by Koranovel
                     <div style={{fontSize: '12px'}}>
-                        Order from telegram googoodolls1
+                        Order from telegram <a className='font-weight-bold text-decoration-none' href='https://t.me/koranovelstore'>koranovelstore</a>
                     </div>
                 </h6>
                 <Container fluid="sm">

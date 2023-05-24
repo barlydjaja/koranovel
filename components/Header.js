@@ -27,10 +27,13 @@ const Header = () => {
             <a className="nav-link">About</a>
           </ActiveLink>
           <ActiveLink href="/novel" activeClassName="selected">
-            <a className="nav-link">Novel</a>
+            <a className="nav-link">My Novel</a>
           </ActiveLink>
           <ActiveLink href="/store" activeClassName="selected">
-            <a className="nav-link">Store</a>
+            <a className="nav-link">Case Store</a>
+          </ActiveLink>
+          <ActiveLink href="/ebook" activeClassName="selected">
+            <a className="nav-link">EBook Store</a>
           </ActiveLink>
         </nav>
       </div>
