@@ -35,7 +35,7 @@ const About = () => {
         </p>
         <br />
         <p className="lead about-text-p mb-3">
-          I have written several novels. Some have titles, some doesn&apos;t.
+          I have written several novels. Some have titles,
           Some are finished, some aren&apos;t finished. Well, I guess
           that&apos;s what every artist goes through in their process of
           creating a masterpiece.
