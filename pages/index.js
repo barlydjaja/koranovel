@@ -12,12 +12,7 @@ import IgLogo from "../assets/images/ic_Instagram.png";
 export default function Home() {
   return (
     <div
-      className={"d-flex vh-100 text-center text-white"}
-      style={{
-        backgroundColor: "#FFA1A9",
-        minHeight: "100%",
-        overflow: "scroll",
-      }}
+      className={`d-flex vh-100 text-center text-white ` +styles.mainBackground}
     >
       <Head>
         <title>Koranovel</title>

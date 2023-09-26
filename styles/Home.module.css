@@ -14,6 +14,15 @@
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
 }
 
+/* Setting Background Img */
+.mainBackground {
+  background-image: url("../assets/images/joker.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50%;
+}
+
 .coverContainer {
   max-width: 42em;
 }
