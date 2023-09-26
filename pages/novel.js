@@ -30,7 +30,7 @@ const Novel = () => {
     return (
         <div
             className="d-flex text-center text-white"
-            style={{backgroundColor: "#FFA1A9"}}
+            style={{backgroundColor: "#E9765B"}}
         >
             <div
                 className="d-flex w-100 h-100 p-3 mx-auto flex-column"
