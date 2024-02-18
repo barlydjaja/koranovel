@@ -50,174 +50,174 @@ const Novel = () => {
                         This are the lists of novel that I have written
                     </h3>
                     {/* <NavLink to="/"> */}
-                    <Row>
-                        <div
-                            className="card mb-3 border-light"
-                            style={{maxWidth: "700px", backgroundColor: "transparent"}}
-                        >
-                            <div className="row g-0">
-                                <div className="col-md-4">
-                                    <Image
-                                        loader={CloudImageLoader}
-                                        src={punarbhawaCover}
-                                        alt="..."
-                                        width={135}
-                                        height={210}
-                                    />
-                                </div>
-                                <div className="col-md-8">
-                                    <div className="card-body">
-                                        <h5 className="card-title">Punarbhawa</h5>
-                                        <p className="card-text">
-                                            The story is about miracles. It tells the stories of
-                                            amazing reincarnation of 5 characters
-                                            <span className={showingDots}>...</span>
-                                            <span className={showText}>
-                        {" "}
-                                                Purbani Jaya, Nadeem Ajala, Banyu Anggoro, Wanda Kraka, dan Maya Sinora have their own
-                        life, different profession, family background, and place
-                        to live, they don&apos;t even know one another, however
-                        they have amazing uniqueness that comes into their life.
-                        Fantasies and dreams of their former life become true
-                        just because they have very good life record. They have
-                        a sincere hearts, natural, and pure. However, one of
-                        them doesn&apos;t recieved as they expected. Who is the
-                        person that doesn&apos;t have a smooth reincarnation?
-                        What did the person do in their previous life? Curious
-                        to find the perfect life of each character? their
-                        profession, family, power, love, and even hope? find out
-                        more by reading the novel... ;)
-                      </span>
-                                            <span
-                                                className={"btn px-0 " + styles.novelMoreLessButton}
-                                                onClick={showMoreLess}
-                                            >
-                        {showMoreLessText}
-                      </span>
-                                        </p>
-                                        <p className="card-text mb-0">
-                                            <small className="text-muted">
-                                                Genre: Novel, Fiction, Romance, Metropop
-                                            </small>
-                                        </p>
-                                        <blockquote className="blockquote mb-0">
-                                            <footer className="blockquote-footer">2010 - now</footer>
-                                        </blockquote>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </Row>
-                    {/* </NavLink> */}
+                    {/* <Row> */}
+                    {/*     <div */}
+                    {/*         className="card mb-3 border-light" */}
+                    {/*         style={{maxWidth: "700px", backgroundColor: "transparent"}} */}
+                    {/*     > */}
+                    {/*         <div className="row g-0"> */}
+                    {/*             <div className="col-md-4"> */}
+                    {/*                 <Image */}
+                    {/*                     loader={CloudImageLoader} */}
+                    {/*                     src={punarbhawaCover} */}
+                    {/*                     alt="..." */}
+                    {/*                     width={135} */}
+                    {/*                     height={210} */}
+                    {/*                 /> */}
+                    {/*             </div> */}
+                    {/*             <div className="col-md-8"> */}
+                    {/*                 <div className="card-body"> */}
+                    {/*                     <h5 className="card-title">Punarbhawa</h5> */}
+                    {/*                     <p className="card-text"> */}
+                    {/*                         The story is about miracles. It tells the stories of */}
+                    {/*                         amazing reincarnation of 5 characters */}
+                    {/*                         <span className={showingDots}>...</span> */}
+                    {/*                         <span className={showText}> */}
+                    {/*     {" "} */}
+                    {/*                             Purbani Jaya, Nadeem Ajala, Banyu Anggoro, Wanda Kraka, dan Maya Sinora have their own */}
+                    {/*     life, different profession, family background, and place */}
+                    {/*     to live, they don&apos;t even know one another, however */}
+                    {/*     they have amazing uniqueness that comes into their life. */}
+                    {/*     Fantasies and dreams of their former life become true */}
+                    {/*     just because they have very good life record. They have*/}
+                    {/*     a sincere hearts, natural, and pure. However, one of */}
+                    {/*    them doesn&apos;t recieved as they expected. Who is the
+                    {/*    person that doesn&apos;t have a smooth reincarnation? */}
+                    {/*    What did the person do in their previous life? Curious */}
+                    {/*    to find the perfect life of each character? their */}
+                    {/*    profession, family, power, love, and even hope? find out */}
+                    {/*    more by reading the novel... ;) */}
+                    {/*  </span> */}
+                    {/*                        <span */}
+                    {/*                            className={"btn px-0 " + styles.novelMoreLessButton} */}
+                    {/*                            onClick={showMoreLess} */}
+                    {/*                        > */}
+                    {/*    {showMoreLessText} */}
+                    {/*  </span> */}
+                    {/*                    </p> */}
+                    {/*                    <p className="card-text mb-0"> */}
+                    {/*                        <small className="text-muted"> */}
+                    {/*                            Genre: Novel, Fiction, Romance, Metropop */}
+                    {/*                        </small> */}
+                    {/*                    </p> */}
+                    {/*                    <blockquote className="blockquote mb-0"> */}
+                    {/*                        <footer className="blockquote-footer">2010 - now</footer> */}
+                    {/*                    </blockquote> */}
+                    {/*                </div> */}
+                    {/*            </div> */}
+                    {/*        </div> */}
+                    {/*    </div> */}
+                    {/*</Row> */}
+                    {/* </NavLink> */} 
 
-                    <Row>
-                        <div
-                            className="card mb-3 border-light"
-                            style={{maxWidth: "700px", backgroundColor: "transparent"}}
-                        >
-                            <div className="row g-0">
-                                <div className="col-md-4">
-                                    <Image
-                                        loader={CloudImageLoader}
-                                        src={iNeedArtInLoveCover}
-                                        alt="..."
-                                        width={135}
-                                        height={210}
-                                    />
-                                </div>
-                                <div className="col-md-8">
-                                    <div className="card-body">
-                                        <h5 className="card-title">I Need Art In Love</h5>
-                                        <p className="card-text">
-                                            The story revolves around two teenagers that needed the
-                                            art of loving in order to love each other
-                                        </p>
-                                        <p className="card-text mb-0">
-                                            <small className="text-muted">
-                                                Genre: Novel, Fiction, Erotic Romance, Metropop
-                                            </small>
-                                        </p>
-                                        <blockquote className="blockquote mb-0">
-                                            <footer className="blockquote-footer">2015</footer>
-                                        </blockquote>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </Row>
-                    <Row>
-                        <div
-                            className="card mb-3 border-light"
-                            style={{maxWidth: "700px", backgroundColor: "transparent"}}
-                        >
-                            <div className="row g-0">
-                                <div className="col-md-4">
-                                    <Image
-                                        loader={CloudImageLoader}
-                                        src={duaCoklatCover}
-                                        alt="..."
-                                        width={135}
-                                        height={210}
-                                    />
-                                </div>
-                                <div className="col-md-8">
-                                    <div className="card-body">
-                                        <h5 className="card-title">
-                                            Dua Kotak Coklat DiSetiap Malam
-                                        </h5>
-                                        <p className="card-text">
-                                            Everyday at mid, I must exactly eat two boxes of
-                                            chocolate. Otherwise, something bad will happen.
-                                        </p>
-                                        <p className="card-text mb-0">
-                                            <small className="text-muted">
-                                                Genre: Novel, Suspense, Thriller, Fiction
-                                            </small>
-                                        </p>
-                                        <blockquote className="blockquote mb-0">
-                                            <footer className="blockquote-footer">2016-2020</footer>
-                                        </blockquote>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </Row>
-                    <Row>
-                        <div
-                            className="card mb-3 border-light"
-                            style={{maxWidth: "700px", backgroundColor: "transparent"}}
-                        >
-                            <div className="row g-0">
-                                <div className="col-md-4">
-                                    <Image
-                                        loader={CloudImageLoader}
-                                        src={futuristic616Cover}
-                                        alt="..."
-                                        width={135}
-                                        height={210}
-                                    />
-                                </div>
-                                <div className="col-md-8">
-                                    <div className="card-body">
-                                        <h5 className="card-title">Futuristic 616</h5>
-                                        <p className="card-text">
-                                            Welcome to the year 2616. The world is in chaos, robots
-                                            are fighting with humans. Nobody wants to give up their
-                                            rights.
-                                        </p>
-                                        <p className="card-text mb-0">
-                                            <small className="text-muted">
-                                                Genre: Novel, Sci-fi, Drama
-                                            </small>
-                                        </p>
-                                        <blockquote className="blockquote mb-0">
-                                            <footer className="blockquote-footer">2019 - now</footer>
-                                        </blockquote>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </Row>
+                    {/*<Row> */}
+                    {/*    <div */}
+                    {/*        className="card mb-3 border-light" */}
+                    {/*        style={{maxWidth: "700px", backgroundColor: "transparent"}} */}
+                    {/*    > */}
+                    {/*        <div className="row g-0"> */}
+                    {/*            <div className="col-md-4"> */}
+                    {/*                <Image */}
+                    {/*                    loader={CloudImageLoader} */}
+                    {/*                    src={iNeedArtInLoveCover} */}
+                    {/*                    alt="..." */}
+                    {/*                    width={135} */}
+                    {/*                    height={210} */}
+                    {/*                /> */}
+                    {/*            </div> */}
+                    {/*            <div className="col-md-8"> */}
+                    {/*                <div className="card-body"> */}
+                    {/*                    <h5 className="card-title">I Need Art In Love</h5> */}
+                    {/*                    <p className="card-text"> */}
+                    {/*                        The story revolves around two teenagers that needed the */}
+                    {/*                        art of loving in order to love each other */}
+                    {/*                    </p> */}
+                    {/*                    <p className="card-text mb-0"> */}
+                    {/*                        <small className="text-muted"> */}
+                    {/*                            Genre: Novel, Fiction, Erotic Romance, Metropop */}
+                    {/*                        </small> */}
+                    {/*                    </p> */}
+                    {/*                    <blockquote className="blockquote mb-0"> */}
+                    {/*                        <footer className="blockquote-footer">2015</footer> */}
+                    {/*                    </blockquote> */}
+                    {/*                </div> */}
+                    {/*            </div> */}
+                    {/*        </div> */}
+                    {/*    </div> */}
+                    {/*</Row> */}
+                    {/*<Row> */}
+                    {/*    <div */}
+                    {/*        className="card mb-3 border-light" */}
+                    {/*        style={{maxWidth: "700px", backgroundColor: "transparent"}} */}
+                    {/*    > */}
+                    {/*        <div className="row g-0"> */}
+                    {/*            <div className="col-md-4"> */}
+                    {/*                <Image */}
+                    {/*                    loader={CloudImageLoader} */}
+                    {/*                    src={duaCoklatCover} */}
+                    {/*                    alt="..." */}
+                    {/*                    width={135} */}
+                    {/*                    height={210} */}
+                    {/*                /> */}
+                    {/*            </div> */}
+                    {/*            <div className="col-md-8"> */}
+                    {/*                <div className="card-body"> */}
+                    {/*                    <h5 className="card-title"> */}
+                    {/*                        Dua Kotak Coklat DiSetiap Malam */}
+                    {/*                    </h5> */}
+                    {/*                    <p className="card-text"> */}
+                    {/*                        Everyday at mid, I must exactly eat two boxes of */}
+                    {/*                        chocolate. Otherwise, something bad will happen. */}
+                    {/*                    </p> */}
+                    {/*                    <p className="card-text mb-0"> */}
+                    {/*                        <small className="text-muted"> */}
+                    {/*                            Genre: Novel, Suspense, Thriller, Fiction */}
+                    {/*                        </small> */}
+                    {/*                    </p> */}
+                    {/*                    <blockquote className="blockquote mb-0"> */}
+                    {/*                        <footer className="blockquote-footer">2016-2020</footer> */}
+                    {/*                    </blockquote> */}
+                    {/*                </div> */}
+                    {/*            </div> */}
+                    {/*        </div> */}
+                    {/*    </div> */}
+                    {/*</Row> */}
+                    {/*<Row> */}
+                    {/*    <div */}
+                    {/*        className="card mb-3 border-light" */}
+                    {/*        style={{maxWidth: "700px", backgroundColor: "transparent"}} */}
+                    {/*    > */}
+                    {/*        <div className="row g-0"> */}
+                    {/*            <div className="col-md-4"> */}
+                    {/*                <Image */}
+                    {/*                    loader={CloudImageLoader} */}
+                    {/*                    src={futuristic616Cover} */}
+                    {/*                    alt="..." */}
+                    {/*                    width={135} */}
+                    {/*                    height={210} */}
+                    {/*                /> */}
+                    {/*            </div> */}
+                    {/*            <div className="col-md-8"> */}
+                    {/*                <div className="card-body"> */}
+                    {/*                    <h5 className="card-title">Futuristic 616</h5> */}
+                    {/*                    <p className="card-text"> */}
+                    {/*                        Welcome to the year 2616. The world is in chaos, robots */}
+                    {/*                        are fighting with humans. Nobody wants to give up their */}
+                    {/*                        rights. */}
+                    {/*                    </p> */}
+                    {/*                    <p className="card-text mb-0"> */}
+                    {/*                        <small className="text-muted"> */}
+                    {/*                            Genre: Novel, Sci-fi, Drama */}
+                    {/*                        </small> */}
+                    {/*                    </p> */}
+                    {/*                    <blockquote className="blockquote mb-0"> */}
+                    {/*                        <footer className="blockquote-footer">2019 - now</footer> */}
+                    {/*                    </blockquote> */}
+                    {/*                </div> */}
+                    {/*            </div> */}
+                    {/*        </div> */}
+                    {/*    </div> */}
+                    {/* </Row> */}
                     {/*<Row>*/}
                     {/*    <div*/}
                     {/*        className="card mb-3 border-light"*/}
