@@ -102,7 +102,8 @@ const EBook = () => {
                 <h6 style={{textAlign: 'left'}} className='mb-5 mt-4'>
                     Harga Promo di May-August 2023
                     <br/>
-                    15K/book
+                    $1 / Book<br />
+                    Rp 15,000 / Book
                     <div style={{fontSize: '12px'}} className='mt-3'>
                         Order from telegram <a className='font-weight-bold text-decoration-none' href='https://t.me/koranovelstore'>koranovelstore</a>
                     </div>
