@@ -100,8 +100,7 @@ const EBook = () => {
                     <Header/>
                 </div>
                 <h6 style={{textAlign: 'left'}} className='mb-5 mt-4'>
-                    Harga Promo di May-August 2023
-                    <br/>
+                    Price list<br />
                     $1 / Book<br />
                     Rp 15,000 / Book
                     <div style={{fontSize: '12px'}} className='mt-3'>
