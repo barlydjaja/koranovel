@@ -4,26 +4,26 @@ import {Container, Row, Col} from "reactstrap";
 import Head from "next/head";
 import Image from "next/image";
 
-function getKey(){
+function getKey(key = 1){
     key += 1;
     return `formating-key-${key}`;
 }
 
 /**
- * 
- * @param {string} _author 
- * @param {string} _title 
- * @param {number} _publishYear 
- * @param {number} _pageCount 
- * @param {string} _ebookFormat 
- * @returns 
+ *
+ * @param {string} _author
+ * @param {string} _title
+ * @param {number} _publishYear
+ * @param {number} _pageCount
+ * @param {string} _ebookFormat
+ * @returns
  */
 function writeBookInfo(_author, _title, _publishYear, _pageCount, _ebookFormat){
     const pgcount = (_pageCount) ? `${_pageCount} pages` : '';
     let ebk = '';
     if(_ebookFormat){
         if(_pageCount) ebk += ", ";
-        
+
         ebk += _ebookFormat;
     }
     return [
@@ -47,10 +47,10 @@ const books = [
         texts: [
             writeBookInfo('Sabri Suby', 'SELL LIKE CRAZY', 2019, 307, kindle_ebook),
             '“The market doesn\'t pay you to have the best product or service. It rewards you for solving problems.',
-            '“Your focus should be on intimately understanding your market and your prospects\' deepest desires, pains, fears, hopes, and dreams. You need to know them better than any of your competitors, and then craft marketing messages that effectively communicate how you can solve these problems.', 
-            '“The ability to write ads and marketing messages that sell is by far the most lethal money-making skill you could ever hope to acquire. ', 
-            '“The key is to install a system that: Attracts Educate Nurtures Gets Prospects.', 
-            'In "Sell like crazy," Sabri suby, a master of digital marketing and sales, laying out an explosive blueprint that demystifies the complexities of selling in the digital age. Whether you\'re a seasoned entrepreneur, a startup hopeful, or a sales professional striving to hit your numbers, this book equip you with the tools and tactics necessary to thrive in today\'s hyper-competitive marketplace by thinking like a fearless salesperson ready to sell like crazy.', 
+            '“Your focus should be on intimately understanding your market and your prospects\' deepest desires, pains, fears, hopes, and dreams. You need to know them better than any of your competitors, and then craft marketing messages that effectively communicate how you can solve these problems.',
+            '“The ability to write ads and marketing messages that sell is by far the most lethal money-making skill you could ever hope to acquire. ',
+            '“The key is to install a system that: Attracts Educate Nurtures Gets Prospects.',
+            'In "Sell like crazy," Sabri suby, a master of digital marketing and sales, laying out an explosive blueprint that demystifies the complexities of selling in the digital age. Whether you\'re a seasoned entrepreneur, a startup hopeful, or a sales professional striving to hit your numbers, this book equip you with the tools and tactics necessary to thrive in today\'s hyper-competitive marketplace by thinking like a fearless salesperson ready to sell like crazy.',
             'Order now!'
         ]
     },
@@ -254,7 +254,7 @@ const EBook = () => {
                         Order from telegram <a className='font-weight-bold text-decoration-none' href='https://t.me/koranovelstore'>koranovelstore</a>
                     </div>
                 </h6>
-                
+
                 <Container fluid="sm">
                     {
                         books.map(book => (
